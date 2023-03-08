@@ -1,15 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" prefix="og: http://ogp.me/ns#">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Di Gi</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Dosis&family=Roboto&family=Roboto+Condensed&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta property="og:title" content="Di Gi - це діджитал агентство повного циклу, направлене на найкращий результат наших клієнтів в маркетингу, 
+  продажах та управлінні"/>
+  <meta property="og:image" content="./images/bg-img.jpg"/>
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
 </head>
 <body>
   
@@ -31,21 +37,18 @@
   <div class="intro">
     <div class="intro-items">
 
-      
-    
       <div class="slider">
 
-        <input type="radio" class = "radio" name="slide" id="slide-1" checked>
-        <input type="radio" class = "radio" name="slide" id="slide-2">
+        <input type="radio" class = "radio" name="slide" id="slide-1">
+        <input type="radio" class = "radio" name="slide" id="slide-2" checked>
         <input type="radio" class = "radio" name="slide" id="slide-3">
 
       <div class="slides">
 
       <div class="slide slide-1">
         <div class="intro-text">
-        <h1>Мисли<br>глобально</h1>
-        <p>Di Gi - це діджитал агентство повного циклу, направлене на найкращий<br> результат наших клієнтів в маркетингу, 
-          продажах та управлінні</p>
+        <h1>Роби<br>на совість</h1>
+        <p>Основною метою Di Gi є надання високоясних послуг у сфері маркетингу<br> з метою досягнення цілей бізнесу клієнта</p>
           <div><button class="more-info">Детальніше</button></div>
         </div>
       </div>
@@ -61,9 +64,8 @@
   
      <div class="slide slide-3">
         <div class="intro-text">
-        <h1>Мисли<br>глобально</h1>
-        <p>Di Gi - це діджитал агентство повного циклу, направлене на найкращий<br> результат наших клієнтів в маркетингу, 
-              продажах та управлінні</p>
+        <h1>Масштабуй<br>розумно</h1>
+        <p>Di Gi співпрацює з багатьма компаніями світового значення і точно знає<br> як розробити унікальну бізнес-модель</p>
               <div><button class="more-info">Детальніше</button></div>
         </div>
       </div>
@@ -117,10 +119,8 @@
   
   </div> 
   </div>
-
   </div>
     
- 
 
   <div class="promo">
     <div class="promo-text">
@@ -133,44 +133,61 @@
 
   <div class="services">
     <div class="services-text">
-        <h2>Сервіс</h2>
-        <p>Від ідеї до незабутнього і вимірного результату.</p>
-        <hr class="services-line">
-        <p>Інтеграція бездоганного виробництва, передових технологій та ретельного вимірювання продуктивності </p>
+      <h2 id="service-h2">Сервіс</h2>
+      <p id="service-p1">Від ідеї до незабутнього і вимірного результату.</p>
+      <hr class="services-line" id="hr">
+      <p id="service-p2">Інтеграція бездоганного виробництва, передових технологій та ретельного вимірювання продуктивності </p>
+        
     </div>
 
     <div class="services-wrapper">
-      <div class="service1">
+      <div class="services_item service1">
         <img src="./images/Object.svg" alt="strategy icon">
         <p class="service-name">Стратегія</p>
+        <p class="service-info">Розробляємо індивідуальні цифрові рішення.</p>
+        <a href="" class="in-detail">Детальніше -></a>
       </div>
-      <div class="service2">
+      <div class="services_item service2">
         <img src="./images/Object (1).svg" alt="analysis icon">
         <p class="service-name">Аналіз</p>
+        <p class="service-info">Аналізуємо ринок та виявляємо "слабкі місця".</p>
+        <a href="" class="in-detail">Детальніше -></a>
       </div>
-      <div class="service3">
+      <div class="services_item service3">
         <img src="./images/Object (2)-cropped.svg" alt="socials icon">
         <p class="service-name">Соц мережі</p>
+        <p class="service-info">Забезпечуємо ефективністю у соціальних мережах.</p>
+        <a href="" class="in-detail">Детальніше -></a>
       </div>
-      <div class="service4">
+      <div class="services_item service4">
         <img src="./images/Object (3)-cropped.svg" alt="improvement icon">
         <p class="service-name">Розвиток</p>
+        <p class="service-info">Комбінуємо передові технології з інноваціями.</p>
+        <a href="" class="in-detail">Детальніше -></a>
       </div>
-      <div class="service5">
+      <div class="services_item service5">
         <img src="./images/Object (4)-cropped.svg" alt="content icon">
         <p class="service-name">Контент</p>
+        <p class="service-info">Утримуємо аудиторію високоякісним контентом.</p>
+        <a href="" class="in-detail">Детальніше -></a>
       </div>
-      <div class="service6">
+      <div class="services_item service6">
         <img src="./images/Object (5)-cropped.svg" alt="design icon">
         <p class="service-name">Дизайн UX</p>
+        <p class="service-info">Створюємо унікальний і зручний дизайн.</p>
+        <a href="" class="in-detail">Детальніше -></a>
       </div>
-      <div class="service7">
+      <div class="services_item service7">
         <img style="padding: 11px;" src="./images/Object (6)-cropped.svg" alt="ad icon">
         <p class="service-name">Таргетована реклама</p>
+        <p class="service-info">Налаштовуємо рекламну кампанію.</p>
+        <a href="" class="in-detail">Детальніше -></a>
       </div>
-      <div class="service8">
+      <div class="services_item service8">
         <img src="./images/Object (7)-cropped.svg" alt="product icon">
         <p class="service-name">Продукт</p>
+        <p class="service-info">Вдосконалюємо продукти на основі трендів ринку.</p>
+        <a href="" class="in-detail">Детальніше -></a>
       </div>
     </div>
   </div>
@@ -179,24 +196,47 @@
     <h2>Наші проекти</h2>
     <hr>
     <div class="projects-photos">
-      <img src="./images/portfolio-1.png" alt="Lalique butique">
-      <img src="./images/portfolio-2.png" alt="House building">
-      <img src="./images/portfolio-3.png" alt="Cafee">
-      <img src="./images/portfolio-4.png" alt="Unique tours">
+
+      <div class="photo-container">
+        <img src="./images/portfolio-1.png" alt="Lalique butique">
+        <div class="photo-mask squares">
+          <img src="./images/info button.svg" alt="">
+          <img src="./images/search.svg" alt="">
+        </div>
+        <p class="projects-text">Lalique бутік</p>
+      </div>
+      <div class="photo-container">
+        <img src="./images/portfolio-2.png" alt="House building">
+        <div class="photo-mask squares"> 
+          <img src="./images/info button.svg" alt="">
+          <img src="./images/search.svg" alt="">
+        </div>
+        <p class="projects-text">Будівництво домівок</p>
+      </div>
+      <div class="photo-container">
+        <img src="./images/portfolio-3.png" alt="Cafee">
+        <div class="photo-mask squares">
+          <img src="./images/info button.svg" alt="">
+          <img src="./images/search.svg" alt="">
+        </div>
+        <p class="projects-text">Кафе</p>
+      </div>
+      <div class="photo-container">
+        <img src="./images/portfolio-4.png" alt="Unique tours">
+        <div class="photo-mask squares">
+          <img src="./images/info button.svg" alt="">
+          <img src="./images/search.svg" alt="">
+        </div>
+        <p class="projects-text">Унікальні тури</p>
+      </div>
+
     </div>
-
-    <div class="projects-text">
-      <p>Lalique бутік</p>
-      <p>Будівництво домівок</p>
-      <p>Кафе</p>
-      <p>Унікальні тури</p>
-
     </div>
   </div>
 
   <div class="video-block">
     <div class="video">
-    <img src="./images/video.png" alt="video">
+    <img id="video-img" src="./images/video.png" alt="video">
     </div>
     <div class="video-text">
     <h2>Команда</h2>
@@ -218,33 +258,118 @@
     <hr>
 
     <div class="masonry">
-      <img class="photo1" src="./images/news-1.png" alt="">
-      <img class="photo2" src="./images/news-2.png" alt="">
-      <img class="photo3" src="./images/news-3.png" alt="">
-      <img class="photo4" src="./images/news-4.png" alt="">
-      <img class="photo5" src="./images/news-5.png" alt="">
-      <img class="photo6" src="./images/news-6.png" alt="">
-      <img class="photo7" src="./images/news-7.png" alt="">
-      <img class="photo8" src="./images/news-8.png" alt="">
+      <div class="masonry-block masonry-1">
+        <div class="blue-back"></div>
+        <img src="./images/info button white.svg" alt="">
+        <div class="rectangle">
+          <p>3Д у брендингу</p>
+        </div>
+     </div>
+     <div class="masonry-block masonry-2">
+      <div class="blue-back"></div>
+      <img src="./images/info button white.svg" alt="">
+      <div class="rectangle">
+        <p>Контекстна реклама</p>
+      </div>
+     </div>
+     <div class="masonry-block masonry-3">
+      <div class="blue-back"></div>
+      <img src="./images/info button white.svg" alt="">
+      <div class="rectangle">
+        <p>Графіка</p>
+      </div>
+     </div>
+     <div class="masonry-block masonry-4">
+      <div class="blue-back"></div>
+      <img src="./images/info button white.svg" alt="">
+      <div class="rectangle">
+        <p>Корпоративна культура</p>
+      </div>
+     </div>
+     <div class="masonry-block masonry-5">
+      <div class="blue-back"></div>
+      <img src="./images/info button white.svg" alt="">
+      <div class="rectangle">
+        <p>Унікальний дизайн</p>
+      </div>
+     </div>
+     <div class="masonry-block masonry-6">
+      <div class="blue-back"></div>
+      <img src="./images/info button white.svg" alt="">
+      <div class="rectangle">
+        <p>Погляд збоку</p>
+      </div>
+     </div>
+     <div class="masonry-block masonry-7">
+      <div class="blue-back"></div>
+      <img src="./images/info button white.svg" alt="">
+      <div class="rectangle">
+        <p>Соц мережі і їх користь</p>
+      </div>
+     </div>
+     <div class="masonry-block masonry-8">
+      <div class="blue-back"></div>
+      <img src="./images/info button white.svg" alt="">
+      <div class="rectangle">
+        <p>Ексклюзивність</p>
+      </div>
+     </div>
     </div>
   </div>
 
   <div class="testimonial">
 
-    <img src="./images/quote.svg" alt="quote">
-    <h2>Якщо необхідно створювати чи підвищувати імідж компанії, <br>
-      то <span>діджитал-маркетинг</span> є найбільш підходящим
-    </h2> 
-    <p>- Маргарита Акулич</p>
+    <img class="quote-sign" src="./images/quote.svg" alt="quote">
+    <div class="quote-slider">
+
+      <input type="radio" class = "radio" name="quote" id="quote-1">
+      <input type="radio" class = "radio" name="quote" id="quote-2" checked>
+      <input type="radio" class = "radio" name="quote" id="quote-3">
+
+      <div class="quotes">
+        <div class="quote quote-1">
+          <h2>Є тільки один спосіб виконати велику роботу – <br><span>полюбити</span> її!
+          </h2> 
+          <p>- Стів Джобс</p>
+        </div>
+        <div class="quote quote-2">
+          <h2>Якщо необхідно створювати чи підвищувати імідж компанії, <br>
+            то <span>діджитал-маркетинг</span> є найбільш підходящим.
+          </h2> 
+          <p>- Маргарита Акулич</p>
+        </div>
+        <div class="quote quote-3">
+          <h2><span>Бізнес</span> – відмінна гра: постійне змагання і мінімум правил. <br>
+            А рахунок в цій грі ведеться в грошах.
+          </h2> 
+          <p>- Білл Гейтс</p>
+        </div>
+      </div>
+
+      <div class="direction direction-left">
+        <label for="quote-3"></label>
+        <label for="quote-1"></label>
+        <label for="quote-2"></label>
+      </div>
+
+      <div class="direction direction-right">
+        <label for="quote-2"></label>
+        <label for="quote-3"></label>
+        <label for="quote-1"></label>
+      </div>
+
+      <div class="scroll-dots-2">
+        <label for="quote-1"></label>
+        <label for="quote-2"></label>
+        <label for="quote-3"></label>
+      </div>
+    </div>
     
-    <div class="scroll-dots-2">
-      <label name="not-active-radio-2" for="radio-1.1" id="label-1.1"></label>
-      <label name="starting-radio-2" for="radio-2.2" id="label-2.2"></label>
-      <label name="not-active-radio-2" for="radio-3.3" id="label-3.3"></label>
-  </div>
   </div>
 
+
   <footer>
+    <div class="footer-items">
     <p class="contact-us">Ми хотіли б почути усе про ваш проєкт. <br>
        Зв'яжіться з нами.</p>
 
@@ -295,7 +420,7 @@
     <div class="under-footer">
       <a href="#top">ВГОРУ <img src="./images/previous message.svg" alt=""></a>
     </div>
-   
+  </div>
   </footer>
 
 </body>
